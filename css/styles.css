@@ -573,7 +573,6 @@ address {
     flex-direction: column;
     margin-left:156px;
     padding: 0;
-    display: inline-flex;
     align-items: flex-start;
     gap: 16px;
     margin-right: 120px;

@@ -569,12 +569,7 @@ address {
     gap: 16px;
 }
 .footer-flex{
-    display: flex;
-    flex-direction: column;
-    margin-left:156px;
-    padding: 0;
-    align-items: flex-start;
-    gap: 16px;
+    width: 264px;
     margin-right: 120px;
 }
 .footer-text {

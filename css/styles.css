@@ -76,6 +76,9 @@ header .logo-web {
 
 .header-box {
     border: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo-studio {
@@ -93,6 +96,29 @@ address {
 .navigation {
     display: flex;
     align-items: center;
+}
+.studio-link-active{
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.studio-link-active::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color:#404bbf;
+    border-radius: 2px;
+
 }
 
 .navigation .studio-link {
@@ -154,7 +180,7 @@ address {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email-address:focus,
@@ -169,7 +195,7 @@ address {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-first {
@@ -178,9 +204,13 @@ address {
     text-align: center;
     display: flex;
     flex-shrink: 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
     display: flex;
     flex-direction: column;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .big-title {
@@ -309,7 +339,9 @@ address {
     margin-top: 16px;
     }
     .social-link{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -321,11 +353,14 @@ address {
 .team-social-icon{
    width: 20px;
    height: 20px; 
-        margin: 12px 0px 0px 12px;
+        fill:#f4f4fd;
 }
 .social-link:hover{
     background-color: #404BBF;
     color: #F4F4FD;
+}
+.social-link:focus{
+    background-color: #404BBF;
 }
 .worker {
     padding: 32px 0;

@@ -477,10 +477,11 @@ address {
     overflow: hidden;
 }
 .types-portfolio:hover .text-box{
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
     transform: translateY(0%) ;
 }
-
+.types-portfolio:hover{
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
 .app-function {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -565,7 +566,6 @@ address {
 }
 .footer-icons-members{
     display: flex;
-    margin-left: 120px;
     gap: 16px;
 }
 .footer-flex{

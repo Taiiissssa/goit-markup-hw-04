@@ -449,6 +449,7 @@ address {
 .footer-page {
     background-color: #2E2F42;
     padding: 100px 0;
+    
 }
 
 .footer-web {
@@ -474,14 +475,50 @@ address {
     letter-spacing: 0.03em;
     line-height: 1.17;
 }
-
+.footer-link{
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #F4F4FD;
+    background-color: #4D5AE5;
+}
 .footer-text {
     color: #F4F4FD;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
+.footer-container{
+    display: flex;
+}
+.footer-icons-members{
+    display: flex;
+    margin-left: 120px;
+    gap: 16px;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    margin-left:156px;
+    padding: 0;
+    display: inline-flex;
+        align-items: flex-start;
+        gap: 16px;
 
+}
 .footer-text {
     width: 264px;
+}
+.footer-social{
+            margin: 12px 0px 0px 12px;
+}
+.text-footer{
+    color:#FFFFFF;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 20px;
+    margin-left: 120px;
 }

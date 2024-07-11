@@ -474,8 +474,9 @@ address {
     flex-basis: 360px;
     position: relative;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
 }
-.types-portfolio:hover{
+.types-portfolio:hover .text-box{
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
     transform: translateY(0%) ;
 }
@@ -561,7 +562,6 @@ address {
 .footer-container{
     display: flex;
     align-items: baseline;
-    margin-right: 120px ;
 }
 .footer-icons-members{
     display: flex;
@@ -574,8 +574,8 @@ address {
     margin-left:156px;
     padding: 0;
     display: inline-flex;
-        align-items: flex-start;
-        gap: 16px;
+    align-items: flex-start;
+    gap: 16px;
     margin-right: 120px;
 }
 .footer-text {

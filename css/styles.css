@@ -204,7 +204,7 @@ address {
     text-align: center;
     display: flex;
     flex-shrink: 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     display: flex;
     flex-direction: column;
     max-width: 1440px;
@@ -557,7 +557,7 @@ address {
     display: inline-flex;
         align-items: flex-start;
         gap: 16px;
-
+    margin-right: 120px;
 }
 .footer-text {
     width: 264px;
@@ -569,7 +569,7 @@ address {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     margin-left: 120px;
 }
 .footer-social{
